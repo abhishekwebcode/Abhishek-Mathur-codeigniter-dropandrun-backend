@@ -1,0 +1,70 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/bin/npm', 'install', 'materialize-css@next' ]
+2 info using npm@1.3.6
+3 info using node@v0.10.48
+4 verbose cache add [ 'materialize-css@next', null ]
+5 verbose cache add name=undefined spec="materialize-css@next" args=["materialize-css@next",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'materialize-css@next',
+6 verbose parsed url   path: 'materialize-css@next',
+6 verbose parsed url   href: 'materialize-css@next' }
+7 verbose cache add name="materialize-css" spec="next" args=["materialize-css","next"]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: 'next',
+8 verbose parsed url   path: 'next',
+8 verbose parsed url   href: 'next' }
+9 verbose addNamed [ 'materialize-css', 'next' ]
+10 verbose addNamed [ null, null ]
+11 silly lockFile e7fd9bfe-materialize-css-next materialize-css@next
+12 verbose lock materialize-css@next /home/ec2-user/.npm/e7fd9bfe-materialize-css-next.lock
+13 info addNameTag [ 'materialize-css', 'next' ]
+14 verbose url raw materialize-css
+15 verbose url resolving [ 'https://registry.npmjs.org/', './materialize-css' ]
+16 verbose url resolved https://registry.npmjs.org/materialize-css
+17 info trying registry request attempt 1 at 07:21:28
+18 http GET https://registry.npmjs.org/materialize-css
+19 info retry will retry, error on last attempt: Error: UNABLE_TO_GET_ISSUER_CERT_LOCALLY
+20 info trying registry request attempt 2 at 07:21:38
+21 http GET https://registry.npmjs.org/materialize-css
+22 info retry will retry, error on last attempt: Error: UNABLE_TO_GET_ISSUER_CERT_LOCALLY
+23 info trying registry request attempt 3 at 07:22:38
+24 http GET https://registry.npmjs.org/materialize-css
+25 silly lockFile e7fd9bfe-materialize-css-next materialize-css@next
+26 silly lockFile e7fd9bfe-materialize-css-next materialize-css@next
+27 error Error: UNABLE_TO_GET_ISSUER_CERT_LOCALLY
+27 error     at SecurePair.<anonymous> (tls.js:1430:32)
+27 error     at SecurePair.emit (events.js:92:17)
+27 error     at SecurePair.maybeInitFinished (tls.js:1029:10)
+27 error     at CleartextStream.read [as _read] (tls.js:521:13)
+27 error     at CleartextStream.Readable.read (_stream_readable.js:341:10)
+27 error     at EncryptedStream.write [as _write] (tls.js:418:25)
+27 error     at doWrite (_stream_writable.js:226:10)
+27 error     at writeOrBuffer (_stream_writable.js:216:5)
+27 error     at EncryptedStream.Writable.write (_stream_writable.js:183:11)
+27 error     at write (_stream_readable.js:602:24)
+28 error If you need help, you may report this log at:
+28 error     <http://github.com/isaacs/npm/issues>
+28 error or email it to:
+28 error     <npm-@googlegroups.com>
+29 error System Linux 4.9.77-31.58.amzn1.x86_64
+30 error command "node" "/usr/bin/npm" "install" "materialize-css@next"
+31 error cwd /var/www/html/dropandrun
+32 error node -v v0.10.48
+33 error npm -v 1.3.6
+34 verbose exit [ 1, true ]
